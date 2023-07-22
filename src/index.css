@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card_titile{
+  color: red;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #120b9c !important;
+}
+
+.navbar a:hover {
+  color: aqua;
+}
+
+.brand-name{
+  color: deepskyblue;
+}
+.margincsst{
+  margin-top: 70px !important;
+}
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+.iij{
+  color: red;
+}
+
+#header .brand-name {
+  color: #3498db;
+}
+.ccess{
+  background-color: #3498db;
+}
+.plr{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+#header2 {
+  
+  color: #484848;
+  font-size: 24px;
+}
+.card-img, .card-img-top {
+  height: 281px;
+}
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
